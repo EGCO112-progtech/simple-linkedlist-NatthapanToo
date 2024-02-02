@@ -5,7 +5,7 @@
 //  Created by Mingmanas Sivaraksa on 4/2/2566 BE.
 //
 
-#ifndef node_h
+#ifndef node_h //include many time not error
 #define node_h
 
 struct node
