@@ -94,8 +94,8 @@ int main(int argc, const char * argv[]) {
         printf("i=%d",i);
         tmp->next = (NodePtr)malloc(sizeof(struct node));
         tmp->next->value = tmp->value+3;
-        tmp=tmp->next;
         if(i==3) tmp->next=NULL;//
+        tmp=tmp->next;
         printf("tmp->value = %d \n",tmp->value);
     }
     
